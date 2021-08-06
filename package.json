@@ -2,9 +2,9 @@
   "name": "sunnyside-agency-landing-page",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/RichardBacon/sunnyside-agency-landing-page/issues"
   },
-  "homepage": "https://github.com/RichardBacon/sunnyside-agency-landing-page#readme"
+  "homepage": "https://github.com/RichardBacon/sunnyside-agency-landing-page#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "prettier": "^2.3.2",
+    "sass": "^1.37.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.20.1"
+  }
 }
