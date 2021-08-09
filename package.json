@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RichardBacon/sunnyside-agency-landing-page#readme",
   "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
     "parcel": "^2.0.0-rc.0",
     "prettier": "^2.3.2",
     "sass": "^1.37.5",
