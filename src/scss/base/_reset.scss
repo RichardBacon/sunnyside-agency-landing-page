@@ -1,0 +1,12 @@
+/**
+* Override browser default styles
+*/
+
+*,
+*::before,
+*::after {
+  // Border and padding included in specified values for width and height
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
