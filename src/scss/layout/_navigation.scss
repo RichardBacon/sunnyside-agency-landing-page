@@ -1,0 +1,43 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.navigation__logo {
+  color: $white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.navigation__list {
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.navigation__link {
+  color: $white;
+  display: block;
+  font-weight: 400;
+  margin-left: 4rem;
+  text-decoration: none;
+}
+
+.navigation__btn {
+  background-color: $white;
+  border-radius: 3rem;
+  color: $gunmetal;
+  display: block;
+  font-family: 'Fraunces', serif;
+  font-weight: 800;
+  margin-left: 4rem;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}

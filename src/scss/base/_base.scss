@@ -3,3 +3,9 @@ html {
   // Use a percentage so that user set font size is respected
   font-size: 62.5%;
 }
+
+body {
+  height: 200vh;
+  margin: 0 auto;
+  max-width: 144rem;
+}
