@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel serve ./src/index.html",
+    "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html"
   },
   "repository": {
@@ -17,9 +17,7 @@
   },
   "homepage": "https://github.com/RichardBacon/sunnyside-agency-landing-page#readme",
   "devDependencies": {
-    "@parcel/transformer-image": "^2.0.0-rc.0",
-    "@parcel/transformer-sass": "^2.0.0-rc.0",
-    "parcel": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5",
     "prettier": "^2.3.2",
     "sass": "^1.37.5",
     "stylelint": "^13.13.1",
