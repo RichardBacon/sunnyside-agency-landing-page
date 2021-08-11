@@ -24,6 +24,8 @@
 .navigation__link {
   color: $white;
   display: block;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.8rem;
   font-weight: 400;
   margin-left: 4rem;
   text-decoration: none;
@@ -35,6 +37,7 @@
   color: $gunmetal;
   display: block;
   font-family: 'Fraunces', serif;
+  font-size: 1.8rem;
   font-weight: 800;
   margin-left: 4rem;
   padding: 1.5rem 3rem;
