@@ -46,3 +46,45 @@
 .about__link--soft-red-underline {
   border-bottom: $soft-red 6px solid;
 }
+
+.services {
+  display: flex;
+}
+
+.services__section {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  height: 60rem;
+  justify-content: flex-end;
+  padding: 0 18rem 5rem 18rem;
+  text-align: center;
+}
+
+.services__section--graphic-design {
+  background-image: url('../img/desktop/image-graphic-design.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $brunswick-green;
+}
+
+.services__section--photography {
+  background-image: url('../img/desktop/image-photography.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $sapphire;
+}
+
+.services__heading {
+  font-family: 'Fraunces', serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+}
+
+.services__text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
