@@ -2,10 +2,28 @@
   background-image: url('../img/desktop/image-header.jpg');
   background-size: contain;
   height: 80rem;
-  justify-content: space-between;
-  text-align: center;
 }
 
-.header__icon {
-  margin: 5rem;
+.header__navigation {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.header__hero {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  margin: 8rem;
+}
+
+.header__heading {
+  color: $white;
+  font-family: 'Fraunces', serif;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
 }
