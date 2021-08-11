@@ -39,7 +39,6 @@
   font-weight: 600;
   height: 2.2rem;
   padding: 0 0.5rem;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -63,14 +62,12 @@
 
 .services__section--graphic-design {
   background-image: url('../img/desktop/image-graphic-design.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
   color: $brunswick-green;
 }
 
 .services__section--photography {
   background-image: url('../img/desktop/image-photography.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
   color: $sapphire;
 }

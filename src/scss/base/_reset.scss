@@ -1,12 +1,41 @@
 /**
-* Override browser default styles
+Use box model that includes padding and border in width and height
+Remove default margin and padding from all elements
 */
-
 *,
 *::before,
 *::after {
-  // Border and padding included in specified values for width and height
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/**
+Set a default line height that works in all browsers
+*/
+html {
+  line-height: 1.15;
+}
+
+/**
+Make images easier to work with
+*/
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/**
+Remove underline from links 
+*/
+a {
+  text-decoration: none;
+}
+
+/** 
+Remove markers from navigation lists
+*/
+nav ul,
+nav ol {
+  list-style: none;
 }
