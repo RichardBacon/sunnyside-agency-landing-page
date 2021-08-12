@@ -1,4 +1,4 @@
-.services {
+.services-section {
   display: flex;
 }
 
@@ -34,4 +34,25 @@
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.5;
+}
+
+.testimonials-section {
+  background-color: $white;
+  padding: 16rem;
+}
+
+.testimonials__heading {
+  color: $silver-chalice;
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.4rem;
+  margin-bottom: 8rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.testimonials {
+  display: flex;
+  gap: 2rem;
 }

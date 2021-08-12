@@ -1,0 +1,42 @@
+.testimonial {
+  align-items: center;
+  background-color: $white;
+  display: flex;
+  flex-basis: 33%;
+  flex-direction: column;
+  gap: 6rem;
+  text-align: center;
+}
+
+.testimonial__image {
+  border-radius: 50%;
+  width: 8rem;
+}
+
+.testimonial__text {
+  color: $black-coral;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.testimonial__author {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testimonial__name {
+  color: $gunmetal;
+  font-family: 'Fraunces', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.testimonial__job {
+  color: $silver-chalice;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
