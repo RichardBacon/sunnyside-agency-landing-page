@@ -2,40 +2,6 @@
   display: flex;
 }
 
-.services__content {
-  display: flex;
-  flex-basis: 50%;
-  flex-direction: column;
-  gap: 3.6rem;
-  height: 60rem;
-  justify-content: flex-end;
-  padding: 0 19rem 5rem 19rem;
-  text-align: center;
-}
-
-.services__content--graphic-design {
-  background-image: url('../img/desktop/image-graphic-design.jpg');
-  color: $brunswick-green;
-}
-
-.services__content--photography {
-  background-image: url('../img/desktop/image-photography.jpg');
-  color: $sapphire;
-}
-
-.services__heading {
-  font-family: 'Fraunces', serif;
-  font-size: 2.8rem;
-  line-height: 1.2;
-}
-
-.services__text {
-  font-family: 'Barlow', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
 .testimonials-section {
   background-color: $white;
   padding: 16rem;
