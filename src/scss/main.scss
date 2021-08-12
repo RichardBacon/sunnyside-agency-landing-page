@@ -2,11 +2,11 @@
 
 @import 'base/reset';
 @import 'base/base';
-@import 'base/typography';
 
 @import 'layout/header';
 @import 'layout/navigation';
 
+@import 'components/about-card';
 @import 'components/logo';
 
 @import 'pages/home';
