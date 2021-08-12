@@ -1,12 +1,12 @@
-.about-card {
+.about {
   display: flex;
 }
 
-.about-card--reversed {
+.about--reversed {
   flex-direction: row-reverse;
 }
 
-.about-card__content {
+.about__content {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -14,18 +14,18 @@
   padding: 16rem 11rem 16rem 16rem;
 }
 
-.about-card__content--reversed {
+.about__content--reversed {
   padding: 16rem 16rem 16rem 11rem;
 }
 
-.about-card__heading {
+.about__heading {
   color: $gunmetal;
   font-family: 'Fraunces', serif;
   font-size: 4rem;
   line-height: 1.2;
 }
 
-.about-card__text {
+.about__text {
   color: $roman-silver;
   font-family: 'Barlow', sans-serif;
   font-size: 1.8rem;
@@ -33,7 +33,7 @@
   line-height: 1.5;
 }
 
-.about-card__link {
+.about__link {
   color: $gunmetal;
   display: inline-block;
   font-family: 'Fraunces', serif;
@@ -44,10 +44,10 @@
   text-transform: uppercase;
 }
 
-.about-card__link--yellow-underline {
+.about__link--yellow-underline {
   border-bottom: $golden-web 6px solid;
 }
 
-.about-card__link--pink-underline {
+.about__link--pink-underline {
   border-bottom: $soft-red 6px solid;
 }
