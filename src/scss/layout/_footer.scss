@@ -1,0 +1,27 @@
+.footer {
+  align-items: center;
+  background-color: $winter-green;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  height: 36rem;
+  padding: 8rem;
+}
+
+.footer__links {
+  display: flex;
+  gap: 4rem;
+}
+
+.footer__link {
+  color: $brunswick-green;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+}

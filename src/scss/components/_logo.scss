@@ -1,9 +1,16 @@
 .logo {
-  color: $white;
   display: block;
   font-family: 'Barlow', sans-serif;
   font-size: 3rem;
   font-weight: 800;
   letter-spacing: 0.2rem;
   text-transform: lowercase;
+}
+
+.logo--white {
+  color: $white;
+}
+
+.logo--green {
+  color: $brunswick-green;
 }
