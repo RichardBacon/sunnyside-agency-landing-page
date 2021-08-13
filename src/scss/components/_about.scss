@@ -51,3 +51,9 @@
 .about__link--pink-underline {
   border-bottom: $soft-red 6px solid;
 }
+
+.about__image {
+  object-fit: cover;
+  object-position: center;
+  width: 50%;
+}
