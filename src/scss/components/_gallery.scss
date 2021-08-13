@@ -3,5 +3,7 @@
 }
 
 .gallery__image {
+  object-fit: cover;
+  object-position: center;
   width: 25%;
 }
