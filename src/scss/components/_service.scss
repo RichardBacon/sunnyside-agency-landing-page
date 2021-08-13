@@ -1,12 +1,15 @@
 .service {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  flex-basis: 50%;
   flex-direction: column;
   gap: 3.6rem;
   height: 60rem;
   justify-content: flex-end;
   padding: 0 19rem 5rem 19rem;
   text-align: center;
+  width: 50%;
 }
 
 .service--graphic-design {
