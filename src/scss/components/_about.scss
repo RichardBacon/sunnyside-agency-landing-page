@@ -6,16 +6,20 @@
   flex-direction: row-reverse;
 }
 
+.about__description {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  width: 50%;
+}
+
 .about__content {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  padding: 16rem 11rem 16rem 16rem;
-}
-
-.about__content--reversed {
-  padding: 16rem 16rem 16rem 11rem;
+  width: 45rem;
 }
 
 .about__heading {

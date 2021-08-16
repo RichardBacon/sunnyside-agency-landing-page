@@ -4,7 +4,7 @@
 
 .testimonials-section {
   background-color: $white;
-  padding: 16rem;
+  padding: 16rem 4rem;
 }
 
 .testimonials__heading {
@@ -20,5 +20,7 @@
 
 .testimonials {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
+  margin: 0 auto;
+  max-width: 112rem;
 }
