@@ -1,3 +1,9 @@
+.navigation {
+  @include respond(small) {
+    display: none;
+  }
+}
+
 .navigation__list {
   align-items: center;
   display: flex;

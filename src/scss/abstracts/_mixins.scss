@@ -1,0 +1,13 @@
+/**
+BREAKPOINT MANAGER
+screen width
+0 - 375px: small
+*/
+@mixin respond($breakpoint) {
+  @if $breakpoint == small {
+    // < 375px
+    @media only screen and (max-width: 390px) {
+      @content;
+    }
+  }
+}

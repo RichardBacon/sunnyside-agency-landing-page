@@ -5,6 +5,10 @@
   font-weight: 800;
   letter-spacing: 0.2rem;
   text-transform: lowercase;
+
+  @include respond(small) {
+    font-size: 2.4rem;
+  }
 }
 
 .logo--white {

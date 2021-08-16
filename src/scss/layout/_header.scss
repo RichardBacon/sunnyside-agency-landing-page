@@ -4,6 +4,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 80rem;
+
+  @include respond(small) {
+    background-image: url('../img/mobile/image-header.jpg');
+    height: 54rem;
+  }
 }
 
 .header__navigation {
@@ -11,6 +16,10 @@
   display: flex;
   justify-content: space-between;
   padding: 4rem;
+
+  @include respond(small) {
+    padding: 2rem;
+  }
 }
 
 .header__hero {
@@ -19,6 +28,10 @@
   flex-direction: column;
   gap: 8rem;
   margin: 8rem;
+
+  @include respond(small) {
+    gap: 5rem;
+  }
 }
 
 .header__heading {
@@ -27,5 +40,11 @@
   font-size: 6rem;
   font-weight: 400;
   letter-spacing: 1rem;
+  text-align: center;
   text-transform: uppercase;
+
+  @include respond(small) {
+    font-size: 4rem;
+    letter-spacing: 0.8rem;
+  }
 }
