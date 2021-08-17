@@ -1,9 +1,17 @@
 .about {
   display: flex;
+
+  @include respond(small) {
+    flex-direction: column-reverse;
+  }
 }
 
 .about--reversed {
   flex-direction: row-reverse;
+
+  @include respond(small) {
+    flex-direction: column-reverse;
+  }
 }
 
 .about__description {
@@ -12,6 +20,11 @@
   justify-content: center;
   padding: 4rem;
   width: 50%;
+
+  @include respond(small) {
+    padding: 6rem 2.4rem;
+    width: 100%;
+  }
 }
 
 .about__content {
@@ -20,6 +33,11 @@
   flex-direction: column;
   gap: 4rem;
   width: 45rem;
+
+  @include respond(small) {
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .about__heading {
@@ -27,6 +45,11 @@
   font-family: 'Fraunces', serif;
   font-size: 4rem;
   line-height: 1.2;
+
+  @include respond(small) {
+    font-size: 3rem;
+    padding: 0 1rem;
+  }
 }
 
 .about__text {
@@ -60,4 +83,8 @@
   object-fit: cover;
   object-position: center;
   width: 50%;
+
+  @include respond(small) {
+    width: 100%;
+  }
 }
