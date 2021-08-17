@@ -10,6 +10,11 @@
   justify-content: flex-end;
   padding: 5rem;
   width: 50%;
+
+  @include respond(small) {
+    padding: 5rem 2rem;
+    width: 100%;
+  }
 }
 
 .service--graphic-design {

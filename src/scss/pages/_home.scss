@@ -1,5 +1,9 @@
 .services-section {
   display: flex;
+
+  @include respond(small) {
+    flex-direction: column;
+  }
 }
 
 .testimonials-section {
