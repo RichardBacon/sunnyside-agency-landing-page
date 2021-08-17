@@ -7,6 +7,10 @@
   gap: 6rem;
   justify-content: space-between;
   text-align: center;
+
+  @include respond(small) {
+    gap: 3rem;
+  }
 }
 
 .testimonial__image {

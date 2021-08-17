@@ -9,6 +9,10 @@
 .testimonials-section {
   background-color: $white;
   padding: 16rem 4rem;
+
+  @include respond(small) {
+    padding: 8rem 2.4rem;
+  }
 }
 
 .testimonials__heading {
@@ -20,6 +24,10 @@
   margin-bottom: 8rem;
   text-align: center;
   text-transform: uppercase;
+
+  @include respond(small) {
+    font-size: 1.6rem;
+  }
 }
 
 .testimonials {
@@ -27,4 +35,9 @@
   gap: 3rem;
   margin: 0 auto;
   max-width: 112rem;
+
+  @include respond(small) {
+    flex-direction: column;
+    gap: 5rem;
+  }
 }
