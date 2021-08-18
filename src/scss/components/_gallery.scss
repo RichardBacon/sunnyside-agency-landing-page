@@ -1,9 +1,18 @@
 .gallery {
   display: flex;
+
+  @include respond(small) {
+    flex-wrap: wrap;
+  }
 }
 
 .gallery__image {
   object-fit: cover;
   object-position: center;
   width: 25%;
+
+  @include respond(small) {
+    height: 18rem;
+    width: 50%;
+  }
 }
