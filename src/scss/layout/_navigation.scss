@@ -15,6 +15,12 @@
   font-family: 'Barlow', sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      color: $gunmetal;
+    }
+  }
 }
 
 .navigation__btn {
@@ -27,4 +33,11 @@
   font-weight: 800;
   padding: 1.5rem 3rem;
   text-transform: uppercase;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background-color: $gunmetal;
+      color: $white;
+    }
+  }
 }

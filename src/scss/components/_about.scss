@@ -77,10 +77,22 @@
 
 .about__link--yellow-underline {
   border-bottom: $golden-web 6px solid;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      border-bottom-color: $soft-red;
+    }
+  }
 }
 
 .about__link--pink-underline {
   border-bottom: $soft-red 6px solid;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      border-bottom-color: $golden-web;
+    }
+  }
 }
 
 .about__image {

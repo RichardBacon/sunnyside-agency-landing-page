@@ -18,10 +18,24 @@
   font-family: 'Barlow', sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      color: $white;
+    }
+  }
 }
 
 .footer__socials {
   display: flex;
   gap: 2rem;
   margin-top: 4rem;
+}
+
+.footer__social {
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      filter: brightness(1000%);
+    }
+  }
 }
