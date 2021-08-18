@@ -1,5 +1,5 @@
 .navigation {
-  @include respond(small) {
+  @include respond(large) {
     display: none;
   }
 }

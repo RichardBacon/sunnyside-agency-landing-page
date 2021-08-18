@@ -1,7 +1,7 @@
 .gallery {
   display: flex;
 
-  @include respond(small) {
+  @include respond(medium) {
     flex-wrap: wrap;
   }
 }
@@ -11,8 +11,7 @@
   object-position: center;
   width: 25%;
 
-  @include respond(small) {
-    height: 18rem;
+  @include respond(medium) {
     width: 50%;
   }
 }

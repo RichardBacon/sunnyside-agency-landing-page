@@ -1,12 +1,21 @@
 /**
 BREAKPOINT MANAGER
-screen width
-0 - 375px: small
 */
 @mixin respond($breakpoint) {
   @if $breakpoint == small {
-    // < 375px
-    @media only screen and (max-width: 390px) {
+    @media only screen and (max-width: 400px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == medium {
+    @media only screen and (max-width: 600px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == large {
+    @media only screen and (max-width: 800px) {
       @content;
     }
   }

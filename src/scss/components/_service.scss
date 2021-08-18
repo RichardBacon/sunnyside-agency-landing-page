@@ -11,7 +11,7 @@
   padding: 5rem;
   width: 50%;
 
-  @include respond(small) {
+  @include respond(medium) {
     padding: 5rem 2rem;
     width: 100%;
   }
@@ -20,11 +20,19 @@
 .service--graphic-design {
   background-image: url('../img/desktop/image-graphic-design.jpg');
   color: $brunswick-green;
+
+  @include respond(small) {
+    background-image: url('../img/mobile/image-graphic-design.jpg');
+  }
 }
 
 .service--photography {
   background-image: url('../img/desktop/image-photography.jpg');
   color: $sapphire;
+
+  @include respond(small) {
+    background-image: url('../img/mobile/image-photography.jpg');
+  }
 }
 
 .service__heading {
